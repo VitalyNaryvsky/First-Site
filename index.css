@@ -12,9 +12,11 @@ header{
     background-color: #2C2F31;
 }
 
+span {
+    color: #3397C9;
+}
 .search {
     margin-right: 50px;
-    border: 1px solid #2C2F31;
 }
 
 
@@ -48,14 +50,13 @@ ul.navbar-nav li {
     color:#F33071;
 }
 .faq a {
-    color:green;
+    color:#28A745;
     font-weight: 800;
     margin:0;
     font-size: 20px;
 }
 
 .main {
-    
     background-color:#313537;
 }
 .container-x1 {
@@ -99,4 +100,48 @@ ul.navbar-categories a {
 .green a {
     color: rgb(40, 167, 69) !important;
 }
+
+.films {
+    display:flex;
+    margin-left: 50px;
+    align-content: center;
+    
+}
+
+.film-container {
+    max-width:150px;
+    margin-bottom:15px;
+    margin-left:40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.film-container a{
+    text-decoration: none;
+}
+
+.films img {
+    border:none;
+    border-radius: 5%;
+    max-height:200px;
+    width:100%;
+}
+
+.card-body{
+    font-size:14px;
+    padding: 10px 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #23282D;
+    color:#C7C3BB;
+}
+
+.film-container:hover {
+    transition: transform 0.5s;
+    transform: scale(1.05);
+}
+
 
