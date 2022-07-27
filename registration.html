@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="registration.css">
+    <title>Зарегистрироваться на сайте</title>
+    <script src="https://kit.fontawesome.com/4b6a90d114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar-logo">
+            <a href="index.html"><img src="img/vmeste_2.png" height="30"></a> 
+        </div>
+        <nav class="navbar">           
+            <ul class="navbar-nav">
+            <li class="navbar-item"><a href="#">Жанры</a></li>
+            <li class="red navbar-item"><a href="#">Подборки</a></li>
+            <li class="navbar-item"><a href="#">YouTube</a></li>
+            <li class="navbar-item red"><a href="#">Купить VIP</a></li>
+            <li class="navbar-item faq"><a href="faq.html">?</a></li>
+            </ul>
+        </nav>
+        <nav class="search">
+            <form action="search" method="get" class="form-inline">
+                    <p><input type="search" name="search" placeholder="Поиск">
+                    <input type="submit" value="найти"></p>
+            </form> 
+        </nav>
+        <nav class="reg">
+            <a href="registration.html" class="reg">Регистрация</a></li>
+            <a href="#" class="reg">Войти</a></li>
+        </nav>
+        </header>
+
+     <div id="main-block">
+        <div id="signin-container">
+            <form class="signin-form">
+                <img class="mb-4" src="img/registration.png" alt width="72">
+                <h1 class="mb-3">Зарегистрируйтесь</h1><br>
+                <label for="inputNick" class="sr-only">Никнейм</label>
+                <input type="text" id="inputNick" class="form-control" name="name-register" placeholder="Никнейм">
+                <label for="inputEmail" class="sr-only">Email адрес</label>
+                <input type="email" id="inputEmail" class="form-control" name="username_register" placeholder="Email адрес">
+                <label for="inputPassword" class="sr-only">Пароль</label>
+                <input type="password" id="inputPassword" class="form-control" name="password_register" placeholder="Пароль">
+                <button class="btn-primary" type="submit">Зарегистрироваться</button>
+                <p class="text-muted">Уже есть аккаунт? <a href="#">Войти</a></p>
+            </form>
+        </div>
+        
+        <div class="footer-copyright">
+            © 2022 <a href="mailto:NaryvskyV28@gmail.com">NaryvskyV28@gmail.com</a>
+            Я в <a href="https://t.me/Mlfhunter89" target="_blank">Telegram<i class="fa-brands fa-telegram"></i></a>
+            &nbsp;<a href="https://vk.com/milfhunter89" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+        </footer>
+    </div>
+</body>
+</html>

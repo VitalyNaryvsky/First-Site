@@ -1,0 +1,59 @@
+body {
+    margin:0;
+    background-color: #313537;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    background-color: #2C2F31;
+}
+
+.navbar-logo{
+    width: 10%;
+    padding-top:10px;
+}
+.search {
+    margin-right: 50px;
+}
+
+
+.reg{
+    margin-right:20px;
+    margin-top: 13px;
+
+    color: #B9B8B6;
+    text-decoration:none;
+}
+
+ul.navbar-nav {
+    margin-top: 5px;
+    padding: 5px;
+    display:flex;
+}
+
+ul.navbar-nav li {
+    display:inline;
+    margin-right:30px;
+    margin-left:5px;
+    padding: 3px;
+}
+
+.navbar-nav a {
+    color: #B9B8B6;
+    text-decoration:none;
+}
+
+.red a {
+    color:#F33071;
+}
+.faq a {
+    color:#28A745;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#main-block {
+    margin-top: 140px;
+    text-align: center;
+}

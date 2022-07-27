@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Совместный просмотр фильмов и сериалов с друзьями онлайн, просто скопируйте им ссылку на комнату.">
     <title>Сайт для просмотра фильмов</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
     <header>
-    <nav class="navbar">
-        <!--
-            <a href="#"><img src="img/vmeste_2.png" width="13%"></a>            
-        -->
-        <ul class="navbar-nav">
-        <li class="navbar-item"><a href="#">Жанры</a></li>
-        <li class="red navbar-item"><a href="#">Подборки</a></li>
-        <li class="navbar-item"><a href="#">YouTube</a></li>
-        <li class="navbar-item red"><a href="#">Купить VIP</a></li>
-        <li class="navbar-item faq"><a href="#">?</a></li>
-        </ul>
-    </nav>
-    <nav class="search">
-        <form action="search" method="get" class="form-inline">
-                <p><input type="search" name="search" placeholder="Поиск">
-                <input type="submit" value="найти"></p>
-        </form> 
-    </nav>
-    <nav class="reg">
-        <a href="#" class="reg">Регистрация</a></li>
-        <a href="#" class="reg">Войти</a></li>
-    </nav>
-    </header>
+        <div class="navbar-logo">
+            <a href="index.html"><img src="img/vmeste_2.png" height="30"></a> 
+        </div>
+        <nav class="navbar">           
+            <ul class="navbar-nav">
+            <li class="navbar-item"><a href="#">Жанры</a></li>
+            <li class="red navbar-item"><a href="#">Подборки</a></li>
+            <li class="navbar-item"><a href="#">YouTube</a></li>
+            <li class="navbar-item red"><a href="#">Купить VIP</a></li>
+            <li class="navbar-item faq"><a href="faq.html">?</a></li>
+            </ul>
+        </nav>
+        <nav class="search">
+            <form action="search" method="get" class="form-inline">
+                    <p><input type="search" name="search" placeholder="Поиск">
+                    <input type="submit" value="найти"></p>
+            </form> 
+        </nav>
+        <nav class="reg">
+            <a href="registration.html" class="reg">Регистрация</a></li>
+            <a href="#" class="reg">Войти</a></li>
+        </nav>
+        </header>
 
     <div class="main">
         <div class="container-x1">
@@ -49,123 +51,123 @@
             </ul>
     </nav>
 
-            <div class="container-x1">
-                <h3>Популярные фильмы</h3>
+    <div class="container-x1">
+        <h3>Популярные фильмы</h3>
+    </div>
+        <div class="films">
+            <div class="film-container">
+                <a href="#" class="film-preview-a">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top" title="Зеркала" >
+                            <img src="img/Films/Zerkala.jpg" alt="Фильм Зеркалa">
+                                <div class="card-body" title="Зеркала">
+                                Зеркала
+                                    <div>
+                                    <small><strong>1 час 50 мин</strong></small>
+                                    <small><strong><span>7,1</span>/10</strong></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
-                <div class="films">
-                <div class="film-container">
-                    <a href="#" class="film-preview-a">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-img-top" title="Зеркала">
-                                <img src="img/Films/Zerkala.jpg">
-                                    <div class="card-body" title="Зеркала">
-                                        Зеркала
-                                        <div>
-                                            <small><strong>1 час 50 мин</strong></small>
-                                            <small><strong><span>7,1</span>/10</strong></small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
 
-                <div class="film-container">
-                    <a href="#" class="film-preview-a">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-img-top" title="Третий лишний">
-                                <img src="img/Films/Tretiy_Lishniy.jpg">
-                                    <div class="card-body" title="Третий лишний">
-                                        Третий лишний
-                                        <div>
-                                            <small><strong>1 час 46 мин</strong></small>
-                                            <small><strong><span>6,7</span>/10</strong></small>
-                                        </div>
+            <div class="film-container">
+                <a href="#" class="film-preview-a">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top" title="Третий лишний">
+                            <img src="img/Films/Tretiy_Lishniy.jpg" alt="Фильм третий лишний">
+                                <div class="card-body" title="Третий лишний">
+                                    Третий лишний
+                                    <div>
+                                        <small><strong>1 час 46 мин</strong></small>
+                                        <small><strong><span>6,7</span>/10</strong></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
 
-                <div class="film-container">
-                    <a href="#" class="film-preview-a">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-img-top" title="Черный телефон">
-                                <img src="img/Films/Cherniy_Telefon.jpg">
-                                    <div class="card-body" title="Черный телефон">
-                                        Черный телефон
-                                        <div>
-                                            <small><strong>1 час 42 мин</strong></small>
-                                            <small><strong><span>6,7</span>/10</strong></small>
-                                        </div>
+            <div class="film-container">
+                <a href="#" class="film-preview-a">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top" title="Черный телефон">
+                            <img src="img/Films/Cherniy_Telefon.jpg" alt="Фильм Черный телефон">
+                                <div class="card-body" title="Черный телефон">
+                                    Черный телефон
+                                    <div>
+                                        <small><strong>1 час 42 мин</strong></small>
+                                        <small><strong><span>6,7</span>/10</strong></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
                 
-                <div class="film-container">
-                    <a href="#" class="film-preview-a">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-img-top" title="Синистер">
-                                <img src="img/Films/Sinister.jpg">
-                                    <div class="card-body" title="Синистер">
-                                        Синистер
-                                        <div>
-                                            <small><strong>1 час 50 мин</strong></small>
-                                            <small><strong><span>6,6</span>/10</strong></small>
-                                        </div>
+            <div class="film-container">
+                <a href="#" class="film-preview-a">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top" title="Синистер">
+                            <img src="img/Films/Sinister.jpg" alt="Фильм Синистер">
+                                <div class="card-body" title="Синистер">
+                                    Синистер
+                                    <div>
+                                        <small><strong>1 час 50 мин</strong></small>
+                                        <small><strong><span>6,6</span>/10</strong></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
 
-                <div class="film-container">
-                    <a href="#" class="film-preview-a">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-img-top" title="Твое имя">
-                                <img src="img/Films/Tvoe_Imya.jpg">
-                                    <div class="card-body" title="Твое имя">
-                                        Твое имя
-                                        <div>
-                                            <small><strong>1 час 42 мин</strong></small>
-                                            <small><strong><span>8,4</span>/10</strong></small>
-                                        </div>
+            <div class="film-container">
+                <a href="#" class="film-preview-a">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top" title="Твое имя">
+                            <img src="img/Films/Tvoe_Imya.jpg" alt="Фильм Твое имя">
+                                <div class="card-body" title="Твое имя">
+                                    Твое имя
+                                    <div>
+                                        <small><strong>1 час 42 мин</strong></small>
+                                        <small><strong><span>8,4</span>/10</strong></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
 
-                <div class="film-container">
-                    <a href="#" class="film-preview-a">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-img-top" title="Сумерки">
-                                <img src="img/Films/Sumerki.jpg">
-                                    <div class="card-body" title="Сумерки">
-                                        Сумерки
-                                        <div>
-                                            <small><strong>2 час 2 мин</strong></small>
-                                            <small><strong><span>6,7</span>/10</strong></small>
-                                        </div>
+            <div class="film-container">
+                <a href="#" class="film-preview-a">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top" title="Сумерки">
+                            <img src="img/Films/Sumerki.jpg" alt="Фильм Сумерки">
+                                <div class="card-body" title="Сумерки">
+                                    Сумерки
+                                    <div>
+                                        <small><strong>2 час 2 мин</strong></small>
+                                        <small><strong><span>6,7</span>/10</strong></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
         </div>
             <div class="films">
 
@@ -174,9 +176,9 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-top" title="Психиатрическая больница Гонджиам">
-                                <img src="img/Films/Gonjiam.jpg">
+                                <img src="img/Films/Gonjiam.jpg" alt="Фильм Психиатрическая больница Гонджиам">
                                     <div class="card-body" title="Психиатрическая больница Гонджиам">
-                                        Психиатрическая...
+                                        Психиатрическая больница Гонджиам
                                         <div>
                                             <small><strong>1 час 34 мин</strong></small>
                                             <small><strong><span>6,1</span>/10</strong></small>
@@ -193,7 +195,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-top" title="Энканто">
-                                <img src="img/Films/Enkanto.jpg">
+                                <img src="img/Films/Enkanto.jpg" alt="Фильм Энканто">
                                     <div class="card-body" title="Энканто">
                                         Энканто
                                         <div>
@@ -212,7 +214,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-top" title="Заклятие">
-                                <img src="img/Films/Zaklyatie.jpg">
+                                <img src="img/Films/Zaklyatie.jpg" alt="Фильм Заклятие">
                                     <div class="card-body" title="Заклятие">
                                         Заклятие
                                         <div>
@@ -231,7 +233,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-top" title="Оно 2">
-                                <img src="img/Films/Ono2.jpg">
+                                <img src="img/Films/Ono2.jpg" alt="Фильм Оно 2">
                                     <div class="card-body" title="Оно 2">
                                         Оно 2
                                         <div>
@@ -250,7 +252,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-top" title="Гарри Поттер и философский камень">
-                                <img src="img/Films/Potter1.jpg">
+                                <img src="img/Films/Potter1.jpg" alt="Фильм Гарри Поттер и философский камень">
                                     <div class="card-body" title="Гарри Поттер и философский камень">
                                         Гарри поттер и философский камень
                                         <div>
@@ -269,7 +271,7 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-img-top" title="После. Глава 2">
-                                <img src="img/Films/Posle.jpg">
+                                <img src="img/Films/Posle.jpg" alt="Фильм После. Глава 2">
                                     <div class="card-body" title="После. Глава 2">
                                         После. Глава 2
                                         <div>
@@ -282,7 +284,9 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div>            
+                    <!--Это был настоящий ад-->
+        
     </div>
 </body>
 </html>

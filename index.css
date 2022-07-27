@@ -12,9 +12,17 @@ header{
     background-color: #2C2F31;
 }
 
+.navbar-logo{
+    width: 10%;
+    padding-top:10px;
+    padding-left: 50px;
+}
+
 span {
     color: #3397C9;
 }
+
+
 .search {
     margin-right: 50px;
 }
@@ -62,7 +70,6 @@ ul.navbar-nav li {
 .container-x1 {
     display:flex;
     color: rgb(199, 195, 187) !important;
-
     line-height:2em;
     font-weight:400;
     justify-content: center;
@@ -71,22 +78,23 @@ ul.navbar-nav li {
 }
 
 ul.navbar-categories {
-    margin-left:300px;
+    margin-left:200px;
     margin-top: 5px;
-    padding: 5px;
+    padding-right:20px;
     display:flex;
 }
 
 ul.navbar-categories li {
     display:inline;
+    text-align:center;
     background-color: #23282D;
     border: 1px solid #80776A;
     margin-right:30px;
     margin-left:5px;
     padding-top:10px;
     padding-bottom:10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left:35px;
+    padding-right:35px;
 }
 
 ul.navbar-categories a {
@@ -109,9 +117,10 @@ ul.navbar-categories a {
 }
 
 .film-container {
-    max-width:150px;
+    transition: 0.5s;
+    max-width:145px;
     margin-bottom:15px;
-    margin-left:40px;
+    margin-left:60px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -128,6 +137,10 @@ ul.navbar-categories a {
     max-height:200px;
     width:100%;
 }
+.card-img-top {
+    text-decoration: none;
+    color: #C7C3BB;
+}
 
 .card-body{
     font-size:14px;
@@ -135,6 +148,8 @@ ul.navbar-categories a {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    border:none;
+    border-radius: 5%;
     background-color: #23282D;
     color:#C7C3BB;
 }
